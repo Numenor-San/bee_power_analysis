@@ -1,0 +1,15 @@
+name: JEB
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python=3.11
+  - numpy
+  - pandas
+  - matplotlib
+  - seaborn
+  - statsmodels
+  - openpyxl
+  - jupyter
+  - pip
+  - argparse
