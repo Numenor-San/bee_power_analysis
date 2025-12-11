@@ -13,7 +13,7 @@ git clone https://github.com/Numenor-San/bee_power_analysis.git
 cd bee_power_analysis
 python -m venv .venv
 source .venv/bin/activate  # on Windows: .venv\Scripts\activate
-pip install -r dependencies.yml
+pip install -r environment.yml
 ```
 
 ## Usage
