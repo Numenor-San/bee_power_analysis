@@ -44,8 +44,8 @@ The script:<br>
 2. Fits an Ordinary Least Squares (OLS) model: capped brood ~ protein<br>
 3. Computes Cohen’s f from the model R²<br>
 4. Uses statsmodels to estimate:<br>
-  - Achieved power at the current sample size<br>
-  - Required sample size to reach 80% power<br>
+  Achieved power at the current sample size<br>
+  Required sample size to reach 80% power<br>
 
 ## Model
 We use an Ordinary Least Squares (OLS) regression model with protein percentage as predictor and capped brood as response, and derive Cohen’s f from the model R² for F-test power calculations.
