@@ -9,8 +9,8 @@ Also available on bioRXiv: doi: https://doi.org/10.1101/2025.07.01.662504
 
 ## Installation
 ```bash
-git clone https://github.com/<your-user>/bee-brood-power-analysis.git
-cd bee-brood-power-analysis
+git clone https://github.com/Numenor-San/bee_power_analysis.git
+cd bee_power_analysis
 python -m venv .venv
 source .venv/bin/activate  # on Windows: .venv\Scripts\activate
 pip install -r dependencies.yml
