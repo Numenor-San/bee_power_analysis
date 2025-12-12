@@ -8,7 +8,7 @@ def load_data(path):
 
 if __name__ == "__main__":
     parser = argparse.ArgumentParser()
-    parser.add_argument("--data", default="data/2025_capp_brood(protein-nutrition).xlsx")
+    parser.add_argument("--data", default="data/2025_data.xlsx")
     args = parser.parse_args()
 
     new_df = load_data(args.data)

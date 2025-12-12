@@ -1,7 +1,7 @@
 name: JEB
 channels:
   - defaults
-  - conda-forge
+
 dependencies:
   - python=3.11
   - numpy
@@ -11,5 +11,3 @@ dependencies:
   - statsmodels
   - openpyxl
   - jupyter
-  - pip
-  - argparse

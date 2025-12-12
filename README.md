@@ -46,9 +46,10 @@ Alternatively you can iterate the conditions directly in the python script.
 
 The script:<br>
 1. Loads the brood vs protein dataset from data/2025_capp_brood(protein-nutrition).xlsx<br>
-2. Fits an Ordinary Least Squares (OLS) model: capped brood ~ protein<br>
-3. Computes Cohen’s f from the model R²<br>
-4. Uses statsmodels to estimate:<br>
+2. Creates figure to check regplot<br>
+3. Fits an Ordinary Least Squares (OLS) model: capped brood ~ protein<br>
+4. Computes Cohen’s f from the model R²<br>
+5. Uses statsmodels to estimate:<br>
    Achieved power at the current sample size<br>
    Required sample size to reach 80% power<br>
 
