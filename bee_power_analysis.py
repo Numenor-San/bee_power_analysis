@@ -17,7 +17,7 @@ from statsmodels.stats.power import FTestPower
 # Data
 # --------------------
 from load_data import load_data
-file_path = 'data/2025_capp_brood(protein-nutrition).xlsx'
+file_path = 'data/2025_data.xlsx'
 new_df = load_data(file_path)
 
 # --------------------
