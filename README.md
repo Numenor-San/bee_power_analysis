@@ -1,10 +1,10 @@
 # Bee Brood Power Analysis
 
-Power analysis for honeybee brood experiments.
+Power analysis for honey bee brood experiments.
 
 Code and data to reproduce the power analyses for the paper:
 Gonçalves RFS, de Sousa RT, Stabler D, Pinto DMS, Wright GA, Shafir S.  
-*A technical semi-field methodology to measure the effect of nutrition on honeybee brood rearing*.  
+*A technical semi-field methodology to measure the effect of nutrition on honey bee brood rearing*.  
 Journal of Experimental Biology, Methods & Techniques. DOI: 10.1242/jeb.251151  
 
 Also available on bioRxiv: https://doi.org/10.1101/2025.07.01.662504
@@ -14,7 +14,7 @@ Also available on bioRxiv: https://doi.org/10.1101/2025.07.01.662504
 ## Installation
 
 
-Run the command bellow in a terminal to Clone the repository and create the Conda environment:
+Run the command below in a terminal to Clone the repository and create the Conda environment:
 ```bash
 git clone https://github.com/Numenor-San/bee_power_analysis.git
 cd bee_power_analysis
@@ -26,7 +26,7 @@ conda activate JEB
 ```
 
 ## Usage
-This is part of a technical semi-field method to quantify the proteins influence on the colony's capacity to rear its brood (aka make new bees).
+This is part of a technical semi-field method to quantify the protein's influence on the colony's capacity to rear its brood (aka make new bees).
 
 This repository implements the power analysis used to estimate how many colonies per diet are needed to detect the protein effect on brood production at a given confidence level; 80% is usually enough.<br>
 
@@ -38,11 +38,11 @@ This follows the conditions described in the paper. In brief:<br>
   - 1000–1600 nurse bees
   - Mated egg-laying queen
 
-You can upload your data in the data folder, just change the "2025_data.xlsx" and run this code in the terminal
+You can upload your data to the data folder, or just change the "2025_data.xlsx" and run this code in the terminal
 ```bash
 python bee_power_analysis.py
 ```
-Alternatively you can iterate the conditions directly in the python script.
+Alternatively, you can iterate the conditions directly in the Python script.
 
 The script:<br>
 1. Loads the brood vs protein dataset from data/2025_capp_brood(protein-nutrition).xlsx<br>
